@@ -8,10 +8,10 @@ Install the package in your project directory with:
 
 ```sh
 // with npm
-npm install gvete/ui-engine
+npm install @gvete/ui-engine
 
 // with yarn
-yarn add gvete/ui-engine
+yarn add @gvete/ui-engine
 ```
 
 ## Documentation

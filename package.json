@@ -1,7 +1,7 @@
 {
-  "name": "@fs/ui-engine",
+  "name": "@gvete/ui-engine",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React components that implement Google's Material Design.",
   "keywords": [
     "react",
