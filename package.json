@@ -1,5 +1,5 @@
 {
-  "name": "ui-engine",
+  "name": "@fs/ui-engine",
   "private": false,
   "version": "1.0.1",
   "description": "React components that implement Google's Material Design.",
