@@ -228,4 +228,4 @@ Tab.defaultProps = {
   wrapped: false,
 };
 
-export default withStyles(styles, { name: 'MuiTab' })(Tab);
+export default withStyles(styles, { name: 'ft' })(Tab);

@@ -255,4 +255,4 @@ InputBase.defaultProps = {
 
 OutlinedInput.muiName = 'Input';
 
-export default withStyles(styles, { name: 'MuiOutlinedInput' })(OutlinedInput);
+export default withStyles(styles, { name: 'foi' })(OutlinedInput);

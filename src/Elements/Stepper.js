@@ -141,4 +141,4 @@ Stepper.defaultProps = {
   orientation: 'horizontal',
 };
 
-export default withStyles(styles, { name: 'MuiStepper' })(Stepper);
+export default withStyles(styles, { name: 'fste' })(Stepper);

@@ -139,6 +139,6 @@ InputAdornment.defaultProps = {
   disableTypography: false,
 };
 
-export default withStyles(styles, { name: 'MuiInputAdornment' })(
+export default withStyles(styles, { name: 'fia' })(
   withFormControlContext(InputAdornment),
 );

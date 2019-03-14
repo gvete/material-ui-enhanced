@@ -45,4 +45,4 @@ ExpansionPanelActions.propTypes = {
   className: PropTypes.string,
 };
 
-export default withStyles(styles, { name: 'MuiExpansionPanelActions' })(ExpansionPanelActions);
+export default withStyles(styles, { name: 'fep' })(ExpansionPanelActions);

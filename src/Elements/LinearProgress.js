@@ -279,4 +279,4 @@ LinearProgress.defaultProps = {
   variant: 'indeterminate',
 };
 
-export default withStyles(styles, { name: 'MuiLinearProgress' })(LinearProgress);
+export default withStyles(styles, { name: 'flp' })(LinearProgress);

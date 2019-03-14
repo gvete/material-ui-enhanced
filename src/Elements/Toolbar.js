@@ -82,4 +82,4 @@ Toolbar.defaultProps = {
   variant: 'regular',
 };
 
-export default withStyles(styles, { name: 'MuiToolbar' })(Toolbar);
+export default withStyles(styles, { name: 'ftol' })(Toolbar);

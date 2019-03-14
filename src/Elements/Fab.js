@@ -230,4 +230,4 @@ Fab.defaultProps = {
   variant: 'round',
 };
 
-export default withStyles(styles, { name: 'MuiFab' })(Fab);
+export default withStyles(styles, { name: 'ff' })(Fab);

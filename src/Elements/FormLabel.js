@@ -142,4 +142,4 @@ FormLabel.defaultProps = {
   component: 'label',
 };
 
-export default withStyles(styles, { name: 'MuiFormLabel' })(withFormControlContext(FormLabel));
+export default withStyles(styles, { name: 'ffe' })(withFormControlContext(FormLabel));

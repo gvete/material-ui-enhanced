@@ -194,4 +194,4 @@ Switch.defaultProps = {
   color: 'secondary',
 };
 
-export default withStyles(styles, { name: 'MuiSwitch' })(Switch);
+export default withStyles(styles, { name: 'fswi' })(Switch);

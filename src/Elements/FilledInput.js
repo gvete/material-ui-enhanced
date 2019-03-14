@@ -284,4 +284,4 @@ InputBase.defaultProps = {
 
 FilledInput.muiName = 'Input';
 
-export default withStyles(styles, { name: 'MuiFilledInput' })(FilledInput);
+export default withStyles(styles, { name: 'ffi' })(FilledInput);

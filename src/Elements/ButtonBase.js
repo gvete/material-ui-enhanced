@@ -473,4 +473,4 @@ ButtonBase.defaultProps = {
   type: 'button',
 };
 
-export default withStyles(styles, { name: 'MuiButtonBase' })(withForwardedRef(ButtonBase));
+export default withStyles(styles, { name: 'fbb' })(withForwardedRef(ButtonBase));

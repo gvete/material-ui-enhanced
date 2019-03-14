@@ -218,4 +218,4 @@ FormControl.defaultProps = {
   variant: 'standard',
 };
 
-export default withStyles(styles, { name: 'MuiFormControl' })(withForwardedRef(FormControl));
+export default withStyles(styles, { name: 'ffc' })(withForwardedRef(FormControl));

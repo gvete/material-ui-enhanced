@@ -62,4 +62,4 @@ DialogContent.defaultProps = {
   dividers: false,
 };
 
-export default withStyles(styles, { name: 'MuiDialogContent' })(DialogContent);
+export default withStyles(styles, { name: 'fdc' })(DialogContent);

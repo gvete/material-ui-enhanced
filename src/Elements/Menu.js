@@ -227,4 +227,4 @@ Menu.defaultProps = {
   transitionDuration: 'auto',
 };
 
-export default withStyles(styles, { name: 'MuiMenu', withTheme: true })(withForwardedRef(Menu));
+export default withStyles(styles, { name: 'fm', withTheme: true })(withForwardedRef(Menu));

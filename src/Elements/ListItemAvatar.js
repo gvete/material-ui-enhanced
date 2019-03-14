@@ -72,4 +72,4 @@ ListItemAvatar.propTypes = {
 
 ListItemAvatar.muiName = 'ListItemAvatar';
 
-export default withStyles(styles, { name: 'MuiListItemAvatar' })(ListItemAvatar);
+export default withStyles(styles, { name: 'flv' })(ListItemAvatar);

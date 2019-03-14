@@ -91,4 +91,4 @@ MenuItem.defaultProps = {
   role: 'menuitem',
 };
 
-export default withStyles(styles, { name: 'MuiMenuItem' })(MenuItem);
+export default withStyles(styles, { name: 'fml' })(MenuItem);

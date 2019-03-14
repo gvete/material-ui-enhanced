@@ -99,4 +99,4 @@ BottomNavigation.defaultProps = {
   showLabels: false,
 };
 
-export default withStyles(styles, { name: 'MuiBottomNavigation' })(BottomNavigation);
+export default withStyles(styles, { name: 'fbn' })(BottomNavigation);

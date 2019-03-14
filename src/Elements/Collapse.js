@@ -265,5 +265,5 @@ Collapse.muiSupportAuto = true;
 
 export default withStyles(styles, {
   withTheme: true,
-  name: 'MuiCollapse',
+  name: 'fcl',
 })(Collapse);

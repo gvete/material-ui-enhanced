@@ -274,6 +274,6 @@ Drawer.defaultProps = {
   variant: 'temporary', // Mobile first.
 };
 
-export default withStyles(styles, { name: 'MuiDrawer', flip: false, withTheme: true })(
+export default withStyles(styles, { name: 'fdw', flip: false, withTheme: true })(
   withForwardedRef(Drawer),
 );

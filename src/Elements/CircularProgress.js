@@ -233,4 +233,4 @@ CircularProgress.defaultProps = {
   variant: 'indeterminate',
 };
 
-export default withStyles(styles, { name: 'MuiCircularProgress', flip: false })(CircularProgress);
+export default withStyles(styles, { name: 'fcp', flip: false })(CircularProgress);

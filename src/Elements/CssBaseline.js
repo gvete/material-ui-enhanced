@@ -57,4 +57,4 @@ CssBaseline.defaultProps = {
   children: null,
 };
 
-export default withStyles(styles, { name: 'MuiCssBaseline' })(CssBaseline);
+export default withStyles(styles, { name: 'fcs' })(CssBaseline);

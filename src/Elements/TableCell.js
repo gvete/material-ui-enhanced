@@ -216,4 +216,4 @@ TableCell.defaultProps = {
   align: 'inherit',
 };
 
-export default withStyles(styles, { name: 'MuiTableCell' })(TableCell);
+export default withStyles(styles, { name: 'ftc' })(TableCell);

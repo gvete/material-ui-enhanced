@@ -170,4 +170,4 @@ GridListTile.defaultProps = {
   rows: 1,
 };
 
-export default withStyles(styles, { name: 'MuiGridListTile' })(withForwardedRef(GridListTile));
+export default withStyles(styles, { name: 'fgt' })(withForwardedRef(GridListTile));

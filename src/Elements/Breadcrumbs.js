@@ -168,4 +168,4 @@ Breadcrumbs.defaultProps = {
   separator: '/',
 };
 
-export default withStyles(styles, { name: 'MuiBreadcrumbs' })(Breadcrumbs);
+export default withStyles(styles, { name: 'fbr' })(Breadcrumbs);

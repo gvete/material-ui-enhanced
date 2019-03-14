@@ -259,6 +259,6 @@ SwitchBase.propTypes = {
   value: PropTypes.oneOfType([PropTypes.string, PropTypes.number, PropTypes.bool]),
 };
 
-export default withStyles(styles, { name: 'MuiPrivateSwitchBase' })(
+export default withStyles(styles, { name: 'fswb' })(
   withForwardedRef(withFormControlContext(SwitchBase)),
 );

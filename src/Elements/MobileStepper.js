@@ -149,4 +149,4 @@ MobileStepper.defaultProps = {
   variant: 'dots',
 };
 
-export default withStyles(styles, { name: 'MuiMobileStepper' })(MobileStepper);
+export default withStyles(styles, { name: 'fms' })(MobileStepper);

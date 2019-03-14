@@ -37,4 +37,4 @@ ExpansionPanelDetails.propTypes = {
   className: PropTypes.string,
 };
 
-export default withStyles(styles, { name: 'MuiExpansionPanelDetails' })(ExpansionPanelDetails);
+export default withStyles(styles, { name: 'fed' })(ExpansionPanelDetails);

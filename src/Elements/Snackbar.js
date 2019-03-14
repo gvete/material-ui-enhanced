@@ -415,4 +415,4 @@ Snackbar.defaultProps = {
   },
 };
 
-export default withStyles(styles, { flip: false, name: 'MuiSnackbar' })(withForwardedRef(Snackbar));
+export default withStyles(styles, { flip: false, name: 'fsn' })(withForwardedRef(Snackbar));

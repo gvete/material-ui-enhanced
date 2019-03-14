@@ -131,4 +131,4 @@ TableSortLabel.defaultProps = {
   IconComponent: ArrowDownwardIcon,
 };
 
-export default withStyles(styles, { name: 'MuiTableSortLabel' })(TableSortLabel);
+export default withStyles(styles, { name: 'ftsl' })(TableSortLabel);

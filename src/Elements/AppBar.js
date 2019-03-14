@@ -124,4 +124,4 @@ AppBar.defaultProps = {
   position: 'fixed',
 };
 
-export default withStyles(styles, { name: 'MuiAppBar' })(AppBar);
+export default withStyles(styles, { name: 'fap' })(AppBar);

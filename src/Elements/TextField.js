@@ -327,4 +327,4 @@ TextField.defaultProps = {
   variant: 'standard',
 };
 
-export default withStyles(styles, { name: 'MuiTextField' })(TextField);
+export default withStyles(styles, { name: 'ftfl' })(TextField);

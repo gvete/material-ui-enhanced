@@ -124,4 +124,4 @@ Link.defaultProps = {
   variant: 'inherit',
 };
 
-export default withStyles(styles, { name: 'MuiLink' })(Link);
+export default withStyles(styles, { name: 'fl' })(Link);

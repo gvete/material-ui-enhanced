@@ -65,4 +65,4 @@ CardActions.defaultProps = {
   disableActionSpacing: false,
 };
 
-export default withStyles(styles, { name: 'MuiCardActions' })(CardActions);
+export default withStyles(styles, { name: 'fct' })(CardActions);

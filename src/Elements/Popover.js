@@ -534,4 +534,4 @@ Popover.defaultProps = {
   transitionDuration: 'auto',
 };
 
-export default withStyles(styles, { name: 'MuiPopover' })(withForwardedRef(Popover));
+export default withStyles(styles, { name: 'fpo' })(withForwardedRef(Popover));

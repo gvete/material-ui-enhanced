@@ -50,4 +50,4 @@ TableHead.defaultProps = {
   component: 'thead',
 };
 
-export default withStyles(styles, { name: 'MuiTableHead' })(TableHead);
+export default withStyles(styles, { name: 'fth' })(TableHead);

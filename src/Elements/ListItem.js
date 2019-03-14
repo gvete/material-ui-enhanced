@@ -270,4 +270,4 @@ ListItem.defaultProps = {
   selected: false,
 };
 
-export default withStyles(styles, { name: 'MuiListItem' })(ListItem);
+export default withStyles(styles, { name: 'flt' })(ListItem);

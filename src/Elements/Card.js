@@ -46,4 +46,4 @@ Card.defaultProps = {
   raised: false,
 };
 
-export default withStyles(styles, { name: 'MuiCard' })(Card);
+export default withStyles(styles, { name: 'fc' })(Card);

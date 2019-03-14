@@ -119,4 +119,4 @@ Radio.defaultProps = {
   color: 'secondary',
 };
 
-export default withStyles(styles, { name: 'MuiRadio' })(Radio);
+export default withStyles(styles, { name: 'fra' })(Radio);

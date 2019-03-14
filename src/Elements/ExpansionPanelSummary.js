@@ -221,6 +221,6 @@ ExpansionPanelSummary.defaultProps = {
   disabled: false,
 };
 
-export default withStyles(styles, { name: 'MuiExpansionPanelSummary' })(
+export default withStyles(styles, { name: 'fds' })(
   withForwardedRef(ExpansionPanelSummary),
 );

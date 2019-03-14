@@ -50,4 +50,4 @@ TableFooter.defaultProps = {
   component: 'tfoot',
 };
 
-export default withStyles(styles, { name: 'MuiTableFooter' })(TableFooter);
+export default withStyles(styles, { name: 'ftf' })(TableFooter);

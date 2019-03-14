@@ -88,4 +88,4 @@ Paper.defaultProps = {
   square: false,
 };
 
-export default withStyles(styles, { name: 'MuiPaper' })(Paper);
+export default withStyles(styles, { name: 'fp' })(Paper);

@@ -519,4 +519,4 @@ Tabs.defaultProps = {
   variant: 'standard',
 };
 
-export default withStyles(styles, { name: 'MuiTabs', withTheme: true })(withForwardedRef(Tabs));
+export default withStyles(styles, { name: 'ftba', withTheme: true })(withForwardedRef(Tabs));

@@ -43,4 +43,4 @@ ListItemIcon.propTypes = {
   className: PropTypes.string,
 };
 
-export default withStyles(styles, { name: 'MuiListItemIcon' })(ListItemIcon);
+export default withStyles(styles, { name: 'flc' })(ListItemIcon);

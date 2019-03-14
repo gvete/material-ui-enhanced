@@ -419,4 +419,4 @@ Modal.defaultProps = {
   manager: new ModalManager(),
 };
 
-export default withStyles(styles, { flip: false, name: 'MuiModal' })(withForwardedRef(Modal));
+export default withStyles(styles, { flip: false, name: 'fmd' })(withForwardedRef(Modal));

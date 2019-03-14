@@ -253,4 +253,4 @@ InputBase.defaultProps = {
 
 Input.muiName = 'Input';
 
-export default withStyles(styles, { name: 'MuiInput' })(Input);
+export default withStyles(styles, { name: 'fi' })(Input);

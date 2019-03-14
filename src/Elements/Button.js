@@ -311,4 +311,4 @@ Button.defaultProps = {
   variant: 'text',
 };
 
-export default withStyles(styles, { name: 'MuiButton' })(Button);
+export default withStyles(styles, { name: 'fbt' })(Button);

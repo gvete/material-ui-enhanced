@@ -65,4 +65,4 @@ FormGroup.defaultProps = {
   row: false,
 };
 
-export default withStyles(styles, { name: 'MuiFormGroup' })(FormGroup);
+export default withStyles(styles, { name: 'ffg' })(FormGroup);

@@ -92,4 +92,4 @@ Divider.defaultProps = {
   variant: 'fullWidth',
 };
 
-export default withStyles(styles, { name: 'MuiDivider' })(Divider);
+export default withStyles(styles, { name: 'fdv' })(Divider);

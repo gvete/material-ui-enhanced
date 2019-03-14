@@ -174,6 +174,6 @@ NativeSelect.defaultProps = {
 
 NativeSelect.muiName = 'Select';
 
-export default withStyles(styles, { name: 'MuiNativeSelect' })(
+export default withStyles(styles, { name: 'fns' })(
   withFormControlContext(NativeSelect),
 );

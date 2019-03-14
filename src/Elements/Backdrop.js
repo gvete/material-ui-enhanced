@@ -79,4 +79,4 @@ Backdrop.defaultProps = {
   invisible: false,
 };
 
-export default withStyles(styles, { name: 'MuiBackdrop' })(Backdrop);
+export default withStyles(styles, { name: 'fbd' })(Backdrop);

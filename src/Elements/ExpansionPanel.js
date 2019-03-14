@@ -227,4 +227,4 @@ ExpansionPanel.defaultProps = {
   TransitionComponent: Collapse,
 };
 
-export default withStyles(styles, { name: 'MuiExpansionPanel' })(withForwardedRef(ExpansionPanel));
+export default withStyles(styles, { name: 'fe' })(withForwardedRef(ExpansionPanel));

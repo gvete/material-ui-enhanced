@@ -243,4 +243,4 @@ Textarea.defaultProps = {
   rows: 1,
 };
 
-export default withStyles(styles, { name: 'MuiPrivateTextarea' })(Textarea);
+export default withStyles(styles, { name: 'ftx' })(Textarea);

@@ -154,4 +154,4 @@ Step.defaultProps = {
   disabled: false,
 };
 
-export default withStyles(styles, { name: 'MuiStep' })(Step);
+export default withStyles(styles, { name: 'fsp' })(Step);

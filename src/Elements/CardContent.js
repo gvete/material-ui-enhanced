@@ -40,4 +40,4 @@ CardContent.defaultProps = {
   component: 'div',
 };
 
-export default withStyles(styles, { name: 'MuiCardContent' })(CardContent);
+export default withStyles(styles, { name: 'fcc' })(CardContent);

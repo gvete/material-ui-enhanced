@@ -160,6 +160,6 @@ BottomNavigationAction.propTypes = {
   value: PropTypes.any,
 };
 
-export default withStyles(styles, { name: 'MuiBottomNavigationAction' })(
+export default withStyles(styles, { name: 'fba' })(
   withForwardedRef(BottomNavigationAction),
 );

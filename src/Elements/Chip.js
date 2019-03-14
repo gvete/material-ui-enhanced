@@ -462,4 +462,4 @@ Chip.defaultProps = {
   variant: 'default',
 };
 
-export default withStyles(styles, { name: 'MuiChip' })(withForwardedRef(Chip));
+export default withStyles(styles, { name: 'fch' })(withForwardedRef(Chip));

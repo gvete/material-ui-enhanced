@@ -243,4 +243,4 @@ TablePagination.defaultProps = {
   rowsPerPageOptions: [10, 25, 50, 100],
 };
 
-export default withStyles(styles, { name: 'MuiTablePagination' })(TablePagination);
+export default withStyles(styles, { name: 'ftp' })(TablePagination);

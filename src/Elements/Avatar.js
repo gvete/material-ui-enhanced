@@ -147,4 +147,4 @@ Avatar.defaultProps = {
   component: 'div',
 };
 
-export default withStyles(styles, { name: 'MuiAvatar' })(Avatar);
+export default withStyles(styles, { name: 'fa' })(Avatar);

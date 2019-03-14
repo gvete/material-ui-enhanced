@@ -183,4 +183,4 @@ IconButton.defaultProps = {
   size: 'medium',
 };
 
-export default withStyles(styles, { name: 'MuiIconButton' })(IconButton);
+export default withStyles(styles, { name: 'fib' })(IconButton);

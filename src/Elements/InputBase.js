@@ -613,6 +613,6 @@ InputBase.defaultProps = {
   type: 'text',
 };
 
-export default withStyles(styles, { name: 'MuiInputBase' })(
+export default withStyles(styles, { name: 'fis' })(
   withForwardedRef(withFormControlContext(InputBase)),
 );

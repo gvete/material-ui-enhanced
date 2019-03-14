@@ -103,4 +103,4 @@ List.defaultProps = {
   disablePadding: false,
 };
 
-export default withStyles(styles, { name: 'MuiList' })(List);
+export default withStyles(styles, { name: 'fli' })(List);

@@ -165,4 +165,4 @@ ListItemText.defaultProps = {
   inset: false,
 };
 
-export default withStyles(styles, { name: 'MuiListItemText', withTheme: true })(ListItemText);
+export default withStyles(styles, { name: 'flx', withTheme: true })(ListItemText);

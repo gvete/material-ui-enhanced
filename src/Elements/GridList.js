@@ -112,4 +112,4 @@ GridList.defaultProps = {
   spacing: 4,
 };
 
-export default withStyles(styles, { name: 'MuiGridList' })(GridList);
+export default withStyles(styles, { name: 'fgl' })(GridList);

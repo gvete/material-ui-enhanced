@@ -65,4 +65,4 @@ Table.defaultProps = {
   size: 'medium',
 };
 
-export default withStyles(styles, { name: 'MuiTable' })(Table);
+export default withStyles(styles, { name: 'fta' })(Table);

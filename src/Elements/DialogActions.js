@@ -65,4 +65,4 @@ DialogActions.defaultProps = {
   disableActionSpacing: false,
 };
 
-export default withStyles(styles, { name: 'MuiDialogActions' })(DialogActions);
+export default withStyles(styles, { name: 'fda' })(DialogActions);

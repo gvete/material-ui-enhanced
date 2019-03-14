@@ -86,4 +86,4 @@ CardMedia.defaultProps = {
   component: 'div',
 };
 
-export default withStyles(styles, { name: 'MuiCardMedia' })(CardMedia);
+export default withStyles(styles, { name: 'fcm' })(CardMedia);

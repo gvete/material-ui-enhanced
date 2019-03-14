@@ -152,4 +152,4 @@ SvgIcon.defaultProps = {
 
 SvgIcon.muiName = 'SvgIcon';
 
-export default withStyles(styles, { name: 'MuiSvgIcon' })(SvgIcon);
+export default withStyles(styles, { name: 'fsv' })(SvgIcon);

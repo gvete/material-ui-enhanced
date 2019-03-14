@@ -201,4 +201,4 @@ Select.defaultProps = {
 
 Select.muiName = 'Select';
 
-export default withStyles(styles, { name: 'MuiSelect' })(withFormControlContext(Select));
+export default withStyles(styles, { name: 'fse' })(withFormControlContext(Select));

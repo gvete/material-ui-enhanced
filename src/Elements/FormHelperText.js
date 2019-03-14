@@ -144,6 +144,6 @@ FormHelperText.defaultProps = {
   component: 'p',
 };
 
-export default withStyles(styles, { name: 'MuiFormHelperText' })(
+export default withStyles(styles, { name: 'ffh' })(
   withFormControlContext(FormHelperText),
 );

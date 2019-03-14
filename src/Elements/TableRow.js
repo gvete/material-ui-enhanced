@@ -96,4 +96,4 @@ TableRow.defaultProps = {
   selected: false,
 };
 
-export default withStyles(styles, { name: 'MuiTableRow' })(TableRow);
+export default withStyles(styles, { name: 'ftow' })(TableRow);

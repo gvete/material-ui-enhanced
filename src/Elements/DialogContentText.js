@@ -28,4 +28,4 @@ DialogContentText.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles, { name: 'MuiDialogContentText' })(DialogContentText);
+export default withStyles(styles, { name: 'fdx' })(DialogContentText);

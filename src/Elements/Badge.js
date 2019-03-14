@@ -168,4 +168,4 @@ Badge.defaultProps = {
   variant: 'standard',
 };
 
-export default withStyles(styles, { name: 'MuiBadge' })(Badge);
+export default withStyles(styles, { name: 'fd' })(Badge);

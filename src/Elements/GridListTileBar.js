@@ -153,4 +153,4 @@ GridListTileBar.defaultProps = {
   titlePosition: 'bottom',
 };
 
-export default withStyles(styles, { name: 'MuiGridListTileBar' })(GridListTileBar);
+export default withStyles(styles, { name: 'fgb' })(GridListTileBar);

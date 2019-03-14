@@ -258,4 +258,4 @@ Typography.defaultProps = {
   variantMapping: defaultVariantMapping,
 };
 
-export default withStyles(styles, { name: 'MuiTypography', withTheme: true })(Typography);
+export default withStyles(styles, { name: 'fty', withTheme: true })(Typography);

@@ -73,4 +73,4 @@ CardActionArea.propTypes = {
   focusVisibleClassName: PropTypes.string,
 };
 
-export default withStyles(styles, { name: 'MuiCardActionArea' })(CardActionArea);
+export default withStyles(styles, { name: 'fca' })(CardActionArea);

@@ -385,4 +385,4 @@ Dialog.defaultProps = {
   transitionDuration: { enter: duration.enteringScreen, exit: duration.leavingScreen },
 };
 
-export default withStyles(styles, { name: 'MuiDialog' })(withForwardedRef(Dialog));
+export default withStyles(styles, { name: 'fd' })(withForwardedRef(Dialog));

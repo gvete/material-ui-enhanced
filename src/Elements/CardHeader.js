@@ -146,4 +146,4 @@ CardHeader.defaultProps = {
   disableTypography: false,
 };
 
-export default withStyles(styles, { name: 'MuiCardHeader' })(CardHeader);
+export default withStyles(styles, { name: 'fch' })(CardHeader);

@@ -194,4 +194,4 @@ InputLabel.defaultProps = {
   disableAnimation: false,
 };
 
-export default withStyles(styles, { name: 'MuiInputLabel' })(withFormControlContext(InputLabel));
+export default withStyles(styles, { name: 'fil' })(withFormControlContext(InputLabel));

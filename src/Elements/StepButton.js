@@ -124,4 +124,4 @@ StepButton.propTypes = {
   orientation: PropTypes.oneOf(['horizontal', 'vertical']),
 };
 
-export default withStyles(styles, { name: 'MuiStepButton' })(StepButton);
+export default withStyles(styles, { name: 'fsb' })(StepButton);

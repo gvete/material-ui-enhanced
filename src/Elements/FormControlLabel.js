@@ -170,6 +170,6 @@ FormControlLabel.defaultProps = {
   labelPlacement: 'end',
 };
 
-export default withStyles(styles, { name: 'MuiFormControlLabel' })(
+export default withStyles(styles, { name: 'ffl' })(
   withFormControlContext(FormControlLabel),
 );

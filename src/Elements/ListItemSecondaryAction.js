@@ -44,4 +44,4 @@ ListItemSecondaryAction.propTypes = {
 
 ListItemSecondaryAction.muiName = 'ListItemSecondaryAction';
 
-export default withStyles(styles, { name: 'MuiListItemSecondaryAction' })(ListItemSecondaryAction);
+export default withStyles(styles, { name: 'fld' })(ListItemSecondaryAction);

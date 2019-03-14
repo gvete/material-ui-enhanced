@@ -88,4 +88,4 @@ SnackbarContent.propTypes = {
   message: PropTypes.node,
 };
 
-export default withStyles(styles, { name: 'MuiSnackbarContent' })(SnackbarContent);
+export default withStyles(styles, { name: 'fsb' })(SnackbarContent);

@@ -369,7 +369,7 @@ Grid.defaultProps = {
   zeroMinWidth: false,
 };
 
-const StyledGrid = withStyles(styles, { name: 'MuiGrid' })(Grid);
+const StyledGrid = withStyles(styles, { name: 'fg' })(Grid);
 
 if (process.env.NODE_ENV !== 'production') {
   const requireProp = requirePropFactory('Grid');

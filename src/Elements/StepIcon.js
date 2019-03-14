@@ -93,4 +93,4 @@ StepIcon.defaultProps = {
   error: false,
 };
 
-export default withStyles(styles, { name: 'MuiStepIcon' })(StepIcon);
+export default withStyles(styles, { name: 'fsic' })(StepIcon);

@@ -491,4 +491,4 @@ Tooltip.defaultProps = {
   TransitionComponent: Grow,
 };
 
-export default withStyles(styles, { name: 'MuiTooltip', withTheme: true })(Tooltip);
+export default withStyles(styles, { name: 'ftip', withTheme: true })(Tooltip);

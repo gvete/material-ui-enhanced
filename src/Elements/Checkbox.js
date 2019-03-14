@@ -161,4 +161,4 @@ Checkbox.defaultProps = {
   indeterminateIcon: <IndeterminateCheckBoxIcon />,
 };
 
-export default withStyles(styles, { name: 'MuiCheckbox' })(Checkbox);
+export default withStyles(styles, { name: 'fcx' })(Checkbox);

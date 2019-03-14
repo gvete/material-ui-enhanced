@@ -48,4 +48,4 @@ DialogTitle.defaultProps = {
   disableTypography: false,
 };
 
-export default withStyles(styles, { name: 'MuiDialogTitle' })(DialogTitle);
+export default withStyles(styles, { name: 'fdt' })(DialogTitle);

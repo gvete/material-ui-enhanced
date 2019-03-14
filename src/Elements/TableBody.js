@@ -50,4 +50,4 @@ TableBody.defaultProps = {
   component: 'tbody',
 };
 
-export default withStyles(styles, { name: 'MuiTableBody' })(TableBody);
+export default withStyles(styles, { name: 'ftb' })(TableBody);
