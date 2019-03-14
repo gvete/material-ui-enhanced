@@ -1,7 +1,7 @@
 {
   "name": "ui-engine",
   "private": false,
-  "version": "4.0.4",
+  "version": "1.0.1",
   "description": "React components that implement Google's Material Design.",
   "keywords": [
     "react",
