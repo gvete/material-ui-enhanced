@@ -1,6 +1,6 @@
 import React from 'react';
 import hoistNonReactStatics from 'hoist-non-react-statics';
-import getDisplayName from '../utils/getDisplayName';
+import getDisplayName from './getDisplayName';
 
 /**
  * Enables ref forwarding on a given component that uses `innerRef` to forward refs
