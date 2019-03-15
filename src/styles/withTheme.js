@@ -1,4 +1,4 @@
-import { withThemeCreator } from '@material-ui/styles';
+import withThemeCreator from './withThemeCreator';
 import defaultTheme from './defaultTheme';
 
 const withTheme = withThemeCreator({

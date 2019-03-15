@@ -1,4 +1,4 @@
-import { useTheme as useThemeWithoutDefault } from '@material-ui/styles';
+import useThemeWithoutDefault from './useThemeWithoutDefault';
 import defaultTheme from './defaultTheme';
 
 export default function useTheme() {

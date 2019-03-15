@@ -1,4 +1,4 @@
-import { ThemeProvider } from '@material-ui/styles';
+import ThemeProvider from './ThemeProvider';
 
 /**
  * @ignore - internal component.

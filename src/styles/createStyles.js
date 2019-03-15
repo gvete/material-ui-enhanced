@@ -1,5 +1,5 @@
 // import warning from 'warning';
-import { createStyles as createStylesOriginal } from '@material-ui/styles';
+import createStylesOriginal from './createStylesOriginal';
 
 // let warnOnce = false;
 
