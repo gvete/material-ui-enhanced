@@ -1,4 +1,4 @@
-import { styled as styledWithoutDefault } from '@material-ui/styles';
+import styledWithoutDefault from './styledWithoutDefault';
 import defaultTheme from './defaultTheme';
 
 const styled = Component => {
