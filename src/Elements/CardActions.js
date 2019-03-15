@@ -2,46 +2,46 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import withStyles from '../styles/withStyles';
-import '../Button'; // So we don't have any override priority issue.
+import { cloneChildrenWithClassName } from '../utils/reactHelpers';
+import './Button'; // So we don't have any override priority issue.
 
 export const styles = {
   /* Styles applied to the root element. */
   root: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'flex-end',
-    flex: '0 0 auto',
-    margin: 8,
+    boxSizing: 'border-box',
+    padding: '8px 4px',
   },
-  /* Styles applied to the root element if `disableActionSpacing={false}`. */
+  /* Styles applied to the root element if `disableActionSpacing={true}`. */
+  disableActionSpacing: {
+    padding: 8,
+  },
+  /* Styles applied to the children. */
   action: {
-    '& > * + *': {
-      marginLeft: 8,
-    },
+    margin: '0 4px',
   },
 };
 
-const DialogActions = React.forwardRef(function DialogActions(props, ref) {
+const CardActions = React.forwardRef(function CardActions(props, ref) {
   const { disableActionSpacing, children, classes, className, ...other } = props;
 
   return (
     <div
       className={clsx(
         classes.root,
-        {
-          [classes.action]: !disableActionSpacing,
-        },
+        { [classes.disableActionSpacing]: disableActionSpacing },
         className,
       )}
       ref={ref}
       {...other}
     >
-      {children}
+      {disableActionSpacing ? children : cloneChildrenWithClassName(children, classes.action)}
     </div>
   );
 });
 
-DialogActions.propTypes = {
+CardActions.propTypes = {
   /**
    * The content of the component.
    */
@@ -56,13 +56,13 @@ DialogActions.propTypes = {
    */
   className: PropTypes.string,
   /**
-   * If `true`, the dialog actions do not have additional margin.
+   * If `true`, the card actions do not have additional margin.
    */
   disableActionSpacing: PropTypes.bool,
 };
 
-DialogActions.defaultProps = {
+CardActions.defaultProps = {
   disableActionSpacing: false,
 };
 
-export default withStyles(styles, { name: 'fda' })(DialogActions);
+export default withStyles(styles, { name: 'fct' })(CardActions);

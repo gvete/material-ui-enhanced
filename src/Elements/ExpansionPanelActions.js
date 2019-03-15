@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import withStyles from '../styles/withStyles';
 import { cloneChildrenWithClassName } from '../utils/reactHelpers';
-import '../Button'; // So we don't have any override priority issue.
+import './Button'; // So we don't have any override priority issue.
 
 export const styles = {
   /* Styles applied to the root element. */

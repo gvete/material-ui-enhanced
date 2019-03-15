@@ -9,7 +9,7 @@ import unsupportedProp from '../utils/unsupportedProp';
 import { capitalize } from '../utils/helpers';
 import { setRef } from '../utils/reactHelpers';
 import withForwardedRef from '../utils/withForwardedRef';
-import '../Avatar/Avatar'; // So we don't have any override priority issue.
+import './Avatar'; // So we don't have any override priority issue.
 
 export const styles = theme => {
   const height = 32;
