@@ -1,4 +1,4 @@
-import { makeStyles as makeStylesWithoutDefault } from '../theme/makeStyles';
+import makeStylesWithoutDefault from '../theme/makeStyles';
 import defaultTheme from './defaultTheme';
 
 function makeStyles(stylesOrCreator, options = {}) {

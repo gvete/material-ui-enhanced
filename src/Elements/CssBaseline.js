@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { withStyles } from '../styles/index';
+import withStyles from '../styles/withStyles';
 import exactProp from '../utils/exactProp';
 
 const styles = theme => ({

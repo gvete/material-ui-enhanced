@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
-import { withStyles } from '../styles/index';
+import withStyles from '../styles/withStyles';
 import { capitalize } from '../utils/helpers';
 
 export const styles = theme => {

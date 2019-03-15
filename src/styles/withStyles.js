@@ -1,4 +1,4 @@
-import { withStyles as withStylesWithoutDefault } from '../theme/withStyles';
+import withStylesWithoutDefault from '../theme/withStyles';
 import defaultTheme from './defaultTheme';
 
 function withStyles(stylesOrCreator, options) {
