@@ -2,7 +2,7 @@
 
 import React from 'react';
 import PropTypes from 'prop-types';
-import { mergeClasses } from '@material-ui/styles';
+import mergeClasses from '../theme/mergeClasses';
 import SelectInput from './SelectInput';
 import formControlState from '../internal/formControlState';
 import withFormControlContext from '../internal/withFormControlContext';

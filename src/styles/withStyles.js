@@ -1,4 +1,4 @@
-import { withStyles as withStylesWithoutDefault } from '@material-ui/styles';
+import { withStyles as withStylesWithoutDefault } from '../theme/withStyles';
 import defaultTheme from './defaultTheme';
 
 function withStyles(stylesOrCreator, options) {

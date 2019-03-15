@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import EventListener from 'react-event-listener';
 import debounce from 'debounce'; // < 1kb payload overhead when lodash/debounce is > 3kb.
 import getDisplayName from '../utils/getDisplayName';
-import { getThemeProps } from '@material-ui/styles';
+import getThemeProps from '../theme/getThemeProps';
 import hoistNonReactStatics from 'hoist-non-react-statics';
 import withTheme from '../styles/withTheme';
 import { keys as breakpointKeys } from '../styles/createBreakpoints';

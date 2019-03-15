@@ -29,7 +29,6 @@ const ListItemIcon = React.forwardRef(function ListItemIcon(props, ref) {
 ListItemIcon.propTypes = {
   /**
    * The content of the component, normally `Icon`, `SvgIcon`,
-   * or a `@material-ui/icons` SVG icon element.
    */
   children: PropTypes.element.isRequired,
   /**
